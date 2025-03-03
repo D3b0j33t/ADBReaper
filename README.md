@@ -40,7 +40,7 @@ ADBReaper is a powerful **Remote ADB Control & Exploitation Tool** that allows u
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-repo/ADBReaper.git
+git clone https://github.com/D3b0j33t/ADBReaper.git
 cd ADBReaper
 ```
 
@@ -51,7 +51,7 @@ chmod +x install.sh
 ```
 
 ### Step 3: Verify Installation
-After installation, you can run ADBReaper from anywhere using:
+After installation, you can run ADBReaper from anywhere using(Only on Linux):
 ```bash
 ADBReaper
 ```
@@ -61,7 +61,7 @@ ADBReaper
 ## Usage
 Run the tool using:
 ```bash
-ADBReaper
+python ADBReaper.py
 ```
 It will guide you through available commands and options.
 
@@ -80,6 +80,8 @@ The installation script will handle these dependencies automatically.
 If you face any issues:
 - Ensure **ADB** is installed and working:  
 ```bash
+adb kill-server
+adb start-server
 adb devices
 ```
 - Run the script with administrative privileges (if needed).
