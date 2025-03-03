@@ -8,7 +8,7 @@ import asyncio
 from datetime import datetime
 from colorama import Fore, Style, init
 
-# Initialize Colorama (important for Windows)
+# Initialize Colorama
 init(autoreset=True)
 
 # Set up logging with more detail (timestamp, log level, message)
